@@ -89,6 +89,16 @@ function App() {
   const deletePass = async (id) => {
     await deleteDoc(doc(db, 'passwords', id));
     getData(user.uid);
+    toast('Password Removed Successfully', {
+      position: 'top-right',
+      autoClose: 2000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: false,
+      draggable: true,
+      progress: undefined,
+      theme: 'light',
+    });
   };
 
   // Edit password entry
