@@ -13,7 +13,7 @@ const Navbar = ({ user, handleSignOut }) => {
         <li>
           {user && (
             <button onClick={handleSignOut} className="logout-button">
-              Sign Out
+              Log Out
             </button>)}
         </li>
       </ul>
