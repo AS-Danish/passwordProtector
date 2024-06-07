@@ -220,4 +220,3 @@ function App() {
 }
 
 export default App;
-/*Made by Abdul Salaam Danish*/ 
